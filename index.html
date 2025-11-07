@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html>
+
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link href="https://fonts.cdnfonts.com/css/katherine" rel="stylesheet">
+    <style>
+
+body {
+
+    background-color: #FFC0CB;
+    
+}
+
+.heartArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    top: 50%;
+ 
+}
+
+.text {
+    padding: 7%;
+    font-size: 5em; 
+   
+}
+.heart {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(-45deg);
+    position: relative;
+    animation: heartbeat 1s infinite;
+}
+
+.heart::before, 
+.heart::after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0px;
+}
+
+.heart::after {
+    left: 50px;
+    top: 0px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1)
+            rotate(-45deg);
+    }
+
+    25% {
+        transform: scale(1.25)
+            rotate(-45deg);
+    }
+
+    45% {
+        transform: scale(1.5)
+            rotate(-45deg);
+    }
+
+
+    
+}
+@import url('https://fonts.cdnfonts.com/css/katherine');
+.swati {
+    position: absolute;
+     
+   /* top: 55%;
+    right: 50%;
+    font-family: cursive;
+      */
+      top: 45%;
+      right: 35%; 
+    
+    font-family: 'Katherine', cursive;
+    transform: translate(50%,-50%);
+    transform: rotate(321deg);
+    font-size: 5em;
+    font-weight: 700;
+    color: #1495bd;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.input {
+ position: absolute;
+ display: flex;
+ text-align: center;
+ 
+
+}
+
+h3{ display: block;
+    text-align: center;
+}
+
+.userinput{
+float: right;
+padding: 4px;
+margin: 2px;
+}
+
+#changeBtn {
+background-color: rgb(21, 225, 21);
+padding: 2px;
+border-radius: 4px;
+border-color: blue;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  background-color: pink;
+  
+}
+input:focus {
+  border-color: green;
+  
+}
+.fa {  
+ 
+  
+  font-size: 25px;  
+   
+}  
+.fa-instagram {  
+  background: pink;  
+  color: rgb(236, 18, 18);  
+
+} 
+
+#comment{
+    text-align: center;
+}
+
+#commentBtn{
+ padding-right: 3px;
+
+background-color: pink;
+outline: 0;
+
+border: 0;
+}
+
+#myphoto{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+#home{
+    height: 27px;
+    width: 25px;
+    padding-right: 3px;
+   
+}
+
+/* for comment */
+
+.article-dual-column{color:#56585b;background-color:#fff;font-family:Lora,serif;font-size:14px}.article-dual-column .intro{font-size:16px;margin:0 auto 30px}.article-dual-column .intro h1{font-size:32px;margin-bottom:15px;padding-top:20px;line-height:1.5;color:inherit;margin-top:25px}.article-dual-column .intro p{color:#929292;font-size:12px}.article-dual-column .intro p .by{font-style:italic}.article-dual-column .intro p .date{text-transform:uppercase;padding:4px 0 4px 10px;margin-left:10px;border-left:1px solid #ddd}.article-dual-column .intro p a{color:#333;text-transform:uppercase;padding-left:3px}.article-dual-column .intro img{margin-top:25px}.article-dual-column .text p{margin-bottom:20px;line-height:1.45}.article-dual-column .text h2{margin-top:28px;margin-bottom:20px;line-height:1.45;font-size:16px;font-weight:700;color:#333}@media (min-width:768px){.article-dual-column .text p{font-size:16px}.article-dual-column .text h2{font-size:20px}}.article-dual-column .text figure{text-align:center;margin-top:30px;margin-bottom:20px}.article-dual-column .text figure img{margin-bottom:12px;max-width:100%}@media (max-width:767px){.article-dual-column .toc{border:1px solid #d3d3d3;padding:20px 0 15px;margin-bottom:20px;border-width:1px 0}}.article-dual-column .toc p{text-transform:uppercase;font-size:12px;font-weight:700}.article-dual-column .toc ul{padding-left:20px;font-size:13px;margin-bottom:0}.article-dual-column .toc li{padding:2px 0}.article-dual-column .toc a{color:inherit}
+#myBtn {
+    width: 100px;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    background: rgb(35, 184, 6);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  #myBtn:hover {
+    background: rgb(3, 12, 99);
+    color: rgb(223, 220, 228);
+  }
+
+
+
+#swatiMarquee{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+text-align: center;
+    color: #fd1369;
+    font-weight: 700;
+    
+    
+    
+}  
+
+    </style>
+
+
+</head>
+
+<body>
+  
+<!--nav style="padding: 5px;">
+    <a class="" href="/index.html"><img src="https://github.com/user-attachments/assets/07a14436-de44-429b-8058-f6c2fa731e6b" id="home"></a>
+    <button onclick="onComment()" id="commentBtn"><img src="https://github.com/user-attachments/assets/b1538190-8b31-4e1c-99ff-7881955f8ab7" style="height: 23px; width: 23px;"></button>
+    <!--button onclick="changeName()" class="userinput" id="changeBtn">Change</button> 
+    <input id="inputname" value="" class="userinput" placeholder="Name"-->
+</nav-->
+<!--script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-d5354024-5024-4f78-a9c6-98c6b513e576" data-elfsight-app-lazy></div-->
+
+
+<!--p id="swatiMarquee"></p-->
+
+ <!--div>
+    <br>
+ <h3 id="url" ></h3>
+ <div id="comment"></div>
+</div-->
+ <div style="display: block; text-align: center;">
+    <div class="heartArea"> 
+        <h1 class="text">I</h1>
+       <div class="heart"></div>
+        <h1 class="text">You</h1>
+        
+    </div> 
+    <h1 class="swati" id="name">Swati</h1>
+</div>
+ <div >
+    
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const name = params.get("name");
+        if(name){
+            document.getElementById("name").innerHTML = name;
+        }
+        else "Prince"
+
+    </script>
+   </div> 
+   <script type = "text/javascript">  
+ 
+  
+    function  changeName() {   
+      let changedName = document.getElementById("inputname").value;
+      if(changedName){
+      document.getElementById("url").innerHTML = ` Share to your beloved  <br> &#128071; <br> <a href= "https://myfeelings.in?name=${changedName}">https://myfeelings.in?name=${changedName} </a>`;
+      document.getElementById("name").innerHTML = changedName;  
+      document.getElementById("swatiMarquee").innerHTML=`Happy Diwali ${changedName}`       
+    } 
+}      
+      </script>
+
+      <script>
+
+    function  onComment() {   
+      
+    
+      document.getElementById("comment").innerHTML = `<form action="https://send.pageclip.co/8b6UOVtWNsmq6kqdwLapTAUXPTNrxkoO/contentform" class="pageclip-form text-center"  method="post">
+         <img src="https://github.com/user-attachments/assets/ca0992de-fe02-4874-a2d8-7dc06be3c8fc" alt="Avatar" id="myphoto">                                               
+        <h4>Your comment will be Anonymous to me</h4>
+        <h6> A super cool developer at</h6>
+                                                        <div>
+                                                        <textarea name="body" rows="7" cols="35" wrap="soft">Write Something...</textarea>
+                                                        </div>
+                                                        <div>
+                                                        <button type="submit" class="pageclip-form__submit" id="myBtn" style="margin-top: 10px;">
+                                                        <span>Send</span>
+                                                        </button>
+                                                        </div>
+                                                    </form>`;
+                                                    document.getElementById("name").innerHTML=""
+                                                    document.getElementById("swatiMarquee").innerHTML=""  
+
+             
+    } 
+ 
+    
+
+      </script>
+
+<script>
+        const wish = new URLSearchParams(window.location.search);
+        const wisherName = params.get("name");
+        if(name){
+            document.getElementById("swatiMarquee").innerHTML = `Hi  ${wisherName}`;
+        }
+        else document.getElementById("swatiMarquee").innerHTML = '' 
+ 
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1541426356478953"
+crossorigin="anonymous"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>  
+<!--
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-b1b555c4-df40-4e41-ac4e-ccfc69ed5599" data-elfsight-app-lazy></div>
+-->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-a9759cdc-c28c-4a9b-9b3e-0c9107518b05" data-elfsight-app-lazy></div>
+</body>
+<!-- <audio  autoplay loop src="../heartbeat.mp3" type="audio/mp3">
+    <source src="../heartbeat.mp3" type="audio/mpeg">
+</audio> -->
+</html>
