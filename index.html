@@ -185,7 +185,7 @@ float: right;
     height: 43px;
     width: 43px;
     padding-right: 3px;
-    background-color:pink;
+    background-color:rgb(176, 9, 232);
     outline: 0;
     border: 0;
    
@@ -215,9 +215,22 @@ float: right;
 #swatiMarquee{
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-text-align: center;
-    color: #fd1369;
+    text-align: center;
+    color: #d629df;
     font-weight: 700;
+    margin-top: 100px;
+    font-size: 16px;
+    color: #48f8f8;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(189,127,0),
+                 -1px 1px 0 rgb(124,62,0),
+                 -2px 2px 0 rgb(58,-4,0),
+                 -3px 3px  0 rgb(-8,-70,0),
+                 -4px 4px 3px rgba(0,0,0,0.28),
+                 -4px 4px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
+
     
     
     
@@ -240,7 +253,7 @@ text-align: center;
 <div class="elfsight-app-d5354024-5024-4f78-a9c6-98c6b513e576" data-elfsight-app-lazy></div-->
 
 
-<p id="swatiMarquee">hi sweety lo likh diya</p>
+<marquee id="swatiMarquee"> <b>Happy New Year Sweetheart</b> <br> I am so sorry for the late wish</marquee>
 
  <!--div>
     <br>
@@ -277,7 +290,7 @@ text-align: center;
       if(changedName){
       document.getElementById("url").innerHTML = ` Share to your beloved  <br> &#128071; <br> <a href= "https://myfeelings.in?name=${changedName}">https://myfeelings.in?name=${changedName} </a>`;
       document.getElementById("name").innerHTML = changedName;  
-      document.getElementById("swatiMarquee").innerHTML=`Happy Diwali ${changedName}`       
+      document.getElementById("swatiMarquee").innerHTML=`Happy New Year ${changedName}`       
     } 
 }      
       </script>
@@ -300,8 +313,8 @@ text-align: center;
                                                         </button>
                                                         </div>
                                                     </form>`;
-                                                    document.getElementById("name").innerHTML=""
-                                                    document.getElementById("swatiMarquee").innerHTML=""  
+        document.getElementById("name").innerHTML=""
+        document.getElementById("swatiMarquee").innerHTML="Happy New Year Swati"  
 
              
     } 
@@ -310,7 +323,7 @@ text-align: center;
 
       </script>
 
-<script>
+<!--script>
         const wish = new URLSearchParams(window.location.search);
         const wisherName = params.get("name");
         if(name){
@@ -318,7 +331,7 @@ text-align: center;
         }
         else document.getElementById("swatiMarquee").innerHTML = '' 
  
-</script>
+</script-->
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1541426356478953"
 crossorigin="anonymous"></script>
